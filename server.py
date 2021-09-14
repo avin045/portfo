@@ -53,7 +53,7 @@ def form():
         write_in_csv(details)  # using function arguments passing
         automatic_email(details)
         pan()
-        return redirect('/index.html')
+        return redirect('index.html')
     else:
         return "problem occurred !!!"
 
