@@ -1,0 +1,36 @@
+
+/* Change autocomplete styles in WebKit */
+input[type="text"]:-webkit-autofill,
+input[type="text"]:-webkit-autofill:hover,
+input[type="email"]:-webkit-autofill,
+input[type="email"]:-webkit-autofill:hover,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+select:-webkit-autofill,
+select:-webkit-autofill:hover {
+  /* border-radius: 0px; */
+  -webkit-text-fill-color: rgb(241, 235, 235);
+  box-shadow: 0 0 500px 1000px #25272a inset !important;
+
+  caret-color: rgb(234, 239, 241);
+}
+
+
+#portfo_form input[type="text"],
+input[type="email"] {
+  /* background-color: transparent !important; */
+  border: none;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  /* border-color: transparent; */
+  /* outline: none; */
+}
+
+*:focus {
+  /* background-color: transparent; */
+  outline: none;
+  border-style: none;
+  border-color: transparent;
+}
